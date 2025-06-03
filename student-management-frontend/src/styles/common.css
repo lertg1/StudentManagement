@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0.2rem;
+}
+button.delete {
+  background: #d32f2f;
+}
+input, select {
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.7rem;
+  text-align: left;
+}
+th {
+  background: #f0f0f0;
+}
